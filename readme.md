@@ -1,21 +1,21 @@
-## docker-hub-api
+## docker-hub-tagger
 
 ### Setup
 
 #### Deno
 
 ```ts
-import { fetchTags, fetchTagNames } from 'https://esm.sh/docker-hub-api'
+import { fetchTags, fetchTagNames } from 'https://esm.sh/docker-hub-tagger'
 ```
 
 #### Node.js
 
 ```bash
-npm i docker-hub-api
+npm i docker-hub-tagger
 ```
 
 ```ts
-import { fetchTags, fetchTagNames } from 'docker-hub-api'
+import { fetchTags, fetchTagNames } from 'docker-hub-tagger'
 ```
 
 ### Usage

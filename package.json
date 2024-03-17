@@ -1,18 +1,18 @@
 {
-  "name": "docker-hub-api",
+  "name": "docker-hub-tagger",
   "version": "1.0.0",
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "MIT",
   "description": "JavaScript SDK for Docker Hub",
   "funding": "https://github.com/sponsors/boywithkeyboard",
-  "repository": "boywithkeyboard/docker-hub-api",
+  "repository": "boywithkeyboard/docker-hub-tagger",
   "keywords": [
     "docker",
     "sdk"
   ],
   "scripts": {
     "build": "builder index.ts:index.js",
-    "prepublishOnly": "npm run build"
+    "release": "npm run build && cd build && npm publish"
   },
   "devDependencies": {
     "@boywithkeyboard/builder": "^0.12.0",
