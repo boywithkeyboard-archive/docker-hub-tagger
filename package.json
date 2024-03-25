@@ -15,7 +15,7 @@
     "release": "npm run build && cd build && npm publish"
   },
   "devDependencies": {
-    "@boywithkeyboard/builder": "^0.12.0",
+    "@boywithkeyboard/builder": "^0.14.0",
     "@types/node": "^20.11.28",
     "typescript": "^5.4.2"
   }
